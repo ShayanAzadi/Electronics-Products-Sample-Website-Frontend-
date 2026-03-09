@@ -1,4 +1,4 @@
-# Electronics-Products-Sample-Website-Frontend-
+# Electronics-Products-Sample-Website-Frontend
 # Electronics Products Showcase
 
 ## Overview
