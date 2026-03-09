@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+    <head>
+        <title>School Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--   css code   -->
+        <link rel="stylesheet" href="Products.css">
+    </head>
+
+    <body>
+
+        <nav>
+
+            <div id="nav-div">
+                <div id="nav-img-container">
+                    <a id="nav-logo-link" href="index.html"><img src="data/logo/logo.png" id="nav-logo"/></a>
+                    <button id="nav-btn"><img src="data/other/more-btn.png"/></button>
+                </div>
+
+                <div id="nav-a">
+                    <a href="Products.html">Products</a>
+                    <a href="Contact.html">Contact</a>
+                    <a href="About.html">About</a>                    
+                    <a href="index.html">Home</a>
+                </div>
+            </div>
+
+        </nav>
+
+        <div id="mobile-nav">
+            <a href="Products.html">Products</a>
+            <a href="Contact.html">Contact</a>
+            <a href="About.html">About</a>                    
+            <a href="index.html">Home</a>
+        </div>
+
+        <main>
+
+            <div id="filter-section">
+                <input id="searchBox" type="text" placeholder="Search by Model Number"/>
+
+                <div id="power-filter">
+                    <div class="filter-header">
+                        <h4>Power (W)</h4>
+                        <h5>▼</h5>
+                    </div>
+
+                    <div class="filter-labels">
+                        <label>20 <input type="checkbox" value="power 20"></label>
+                        <label>50 <input type="checkbox" value="power 50"></label>
+                        <label>100 <input type="checkbox" value="power 100"></label>
+                    </div>
+                </div>
+
+                <div id="input-filter">
+                    <div class="filter-header">
+                        <h4>Input Voltage (VDC)</h4>
+                        <h5>▼</h5>
+                    </div>
+
+                    <div class="filter-labels">
+                        <label>9-36 <input type="checkbox" value="input 9-36"></label>
+                        <label>18-75 <input type="checkbox" value="input 18-75"></label>
+                    </div>
+                </div>
+
+                <div id="output-filter">
+                    <div class="filter-header">
+                        <h4>Output Voltage (VDC)</h4>
+                        <h5>▼</h5>
+                    </div>
+
+                    <div class="filter-labels">
+                        <label>3.3 <input type="checkbox" value="output 3.3"></label>
+                        <label>5 <input type="checkbox" value="output 5"></label>
+                        <label>9 <input type="checkbox" value="output 9"></label>
+                        <label>12 <input type="checkbox" value="output 12"></label>
+                        <label>15 <input type="checkbox" value="output 15"></label>
+                        <label>24 <input type="checkbox" value="output 24"></label>
+                        <label>28 <input type="checkbox" value="output 28"></label>
+                        <label>48 <input type="checkbox" value="output 48"></label>
+                        <label>±5 <input type="checkbox" value="output ±5"></label>
+                        <label>±12 <input type="checkbox" value="output ±12"></label>
+                        <label>±15 <input type="checkbox" value="output ±15"></label>
+                    </div>
+                </div>
+
+            </div>
+
+        <div id="products-section">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Model Number</th>
+                            <th>Power (W)</th>
+                            <th>Input Voltage (VDC)</th>
+                            <th>Output Voltage (VDC)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        
+        </main>
+
+        <footer>
+
+            <div id="footer-links-section">
+                <a href="Products.html">Products</a>
+                <a href="Contact.html">Contact</a>
+                <a href="About.html">About</a>                    
+                <a href="index.html">Home</a>
+            </div>
+
+            <div id="footer-logo-section">
+
+                <a id="footer-logo-link" href="index.html"><img src="data/logo/logo.png" id="footer-logo"/></a>
+
+                <div id="footer-contacts-links-logo">
+                    <a href="https://gmail.com"><img src="data/other/email.png"/></a>
+                    <a href="https://linkedin.com"><img src="data/other/linkedin.png"/></a>
+                    <a href="https://x.com"><img src="data/other/x.png"/></a>
+                </div>
+                
+                
+            </div>
+
+        </footer>
+
+        <!--  javascript code   -->
+        <script src="Products.js"></script>
+
+    </body>
+
+</html>
